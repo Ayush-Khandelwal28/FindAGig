@@ -2,7 +2,8 @@
 resolver = "2"
 
 members = [
-
+"agreement",
+"bidding"
 ]
 
 [workspace.package]
