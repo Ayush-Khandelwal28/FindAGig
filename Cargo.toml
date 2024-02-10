@@ -1,8 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = [
-"agreement",
+members = ["escrow",
 "zk-bidding"
 ]
 
