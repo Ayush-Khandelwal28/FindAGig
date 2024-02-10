@@ -3,7 +3,7 @@ resolver = "2"
 
 members = [
 "agreement",
-"bidding"
+"zk-bidding"
 ]
 
 [workspace.package]
@@ -15,8 +15,14 @@ documentation = "https://gitlab.com/secata/pbc/language/web-ide"
 edition = "2021"
 license = "UNLICENSED"
 
+[workspace.metadata.partisiablockchain]
+cargo-partisia = "4.70.0"
+
 [workspace.metadata.zkcompiler]
-url = "https://gitlab.com/api/v4/groups/12499775/-/packages/maven/com/partisiablockchain/language/zkcompiler/4.29.0/zkcompiler-4.29.0-jar-with-dependencies.jar"
+url = "https://gitlab.com/api/v4/groups/12499775/-/packages/maven/com/partisiablockchain/language/zkcompiler/4.65.0/zkcompiler-4.65.0-jar-with-dependencies.jar"
+
+[workspace.metadata.abi-cli]
+url = "https://gitlab.com/api/v4/groups/12499775/-/packages/maven/com/partisiablockchain/language/abi-cli/4.80.0/abi-cli-4.80.0-jar-with-dependencies.jar"
 
 [workspace.dependencies]
 pbc_contract_common = { git = "https://git@gitlab.com/partisiablockchain/language/contract-sdk.git", tag = "v.16.40.0" }
@@ -27,4 +33,3 @@ read_write_rpc_derive = { git = "https://git@gitlab.com/partisiablockchain/langu
 read_write_state_derive = { git = "https://git@gitlab.com/partisiablockchain/language/contract-sdk.git", tag = "v.16.40.0" }
 create_type_spec_derive = { git = "https://git@gitlab.com/partisiablockchain/language/contract-sdk.git", tag = "v.16.40.0" }
 pbc_zk = { git = "https://git@gitlab.com/partisiablockchain/language/contract-sdk.git", tag = "v.16.40.0" }
-
