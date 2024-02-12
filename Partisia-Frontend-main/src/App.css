@@ -1,0 +1,48 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.account-info {
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  padding: 20px;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

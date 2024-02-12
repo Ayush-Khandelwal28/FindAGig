@@ -1,0 +1,40 @@
+/* MakeBid.css */
+.make-bid {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .make-bid h2 {
+    margin-top: 0;
+  }
+  
+  .make-bid label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .make-bid input,
+  .make-bid textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .make-bid button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .make-bid button:hover {
+    background-color: #0056b3;
+  }
+  

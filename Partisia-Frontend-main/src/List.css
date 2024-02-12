@@ -1,0 +1,75 @@
+/* List.css */
+.list {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .list h2 {
+    margin-top: 0;
+  }
+  
+  .list p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .list th, .list td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list th {
+    background-color: #f2f2f2;
+  }
+  
+  .list .description-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .list .description-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .list .bid-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .list .bid-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list .back-button {
+    display: block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list .back-button:hover {
+    background-color: #0056b3;
+  }
+  

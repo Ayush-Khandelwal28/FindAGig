@@ -1,0 +1,44 @@
+/* ListBid.css */
+.list-bid {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .list-bid h2 {
+    margin-top: 0;
+  }
+  
+  .list-bid .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .list-bid label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .list-bid input[type="text"],
+  .list-bid textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .list-bid textarea {
+    height: 100px;
+  }
+  
+  .list-bid button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .list-bid button:hover {
+    background-color: #0056b3;
+  }
+  
