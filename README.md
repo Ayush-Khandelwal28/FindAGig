@@ -16,6 +16,8 @@ To provide additional security for both project owners and freelancers, FindAGig
 
 In the event of a dispute regarding the payment amount between the project owner and freelancer, FindAGig offers a robust dispute resolution mechanism. A panel of arbiters votes on the dispute using Zero Knowledge Proof. The number of "yes" and "no" votes determines the final payment amount to be made to the freelancer, ensuring fair and impartial resolution.
 
+### 4. MPC20 Token Contract
 
+FindAGig has deployed an MPC20 token contract, which serves as the currency for our website. These tokens are used for staking and locking funds, as well as for transferring funds between two parties and for all other transactions where required.
 
 
