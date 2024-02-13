@@ -109,6 +109,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
 
 [[package]]
+name = "mpc20"
+version = "4.0.0"
+dependencies = [
+ "create_type_spec_derive",
+ "pbc_contract_codegen",
+ "pbc_contract_common",
+ "pbc_lib",
+ "pbc_traits",
+ "read_write_rpc_derive",
+ "read_write_state_derive",
+]
+
+[[package]]
 name = "once_cell"
 version = "1.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
