@@ -42,6 +42,9 @@ struct ContractState {
     auction_result: Option<AuctionResult>,
     /// Current bidder ID
     current_bidder_id: i32,
+    project_name: String,
+    project_description: String,
+    project_metrics: String,
 }
 
 #[derive(Clone, ReadWriteState, CreateTypeSpec, ReadRPC, WriteRPC)]
@@ -63,12 +66,27 @@ struct RegisteredBidder {
 ///
 /// Note that owner is set to whoever initializes the contact.
 #[init(zk = true)]
-fn initialize(context: ContractContext, zk_state: ZkState<SecretVarMetadata>) -> ContractState {
+fn initialize(context: ContractContext, zk_state: ZkState<SecretVarMetadata>, project_name: String, project_description: String, project_metrics: String) -> ContractState {
+    assert_ne!(
+        project_name, "",
+        "The name of the project cannot be empty."
+    );
+    assert_ne!(
+        project_description, "",
+        "The description of the project cannot be empty."
+    );
+    assert_ne!(
+        project_metrics, "",
+        "The metrics of the project cannot be empty."
+    );
     ContractState {
         owner: context.sender,
         registered_bidders: Vec::new(),
         auction_result: None,
         current_bidder_id: 0, // Initialize the current bidder ID
+        project_name,
+        project_description,
+        project_metrics,
     }
 }
 

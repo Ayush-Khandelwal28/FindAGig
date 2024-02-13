@@ -103,6 +103,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "handledispute"
+version = "4.0.0"
+dependencies = [
+ "create_type_spec_derive",
+ "pbc_contract_codegen",
+ "pbc_contract_common",
+ "pbc_lib",
+ "pbc_traits",
+ "pbc_zk",
+ "read_write_rpc_derive",
+ "read_write_state_derive",
+]
+
+[[package]]
 name = "libc"
 version = "0.2.153"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -325,21 +339,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423"
 
 [[package]]
-name = "zk-second-price"
-version = "4.0.0"
-dependencies = [
- "create_type_spec_derive",
- "pbc_contract_codegen",
- "pbc_contract_common",
- "pbc_lib",
- "pbc_traits",
- "pbc_zk",
- "read_write_rpc_derive",
- "read_write_state_derive",
-]
-
-[[package]]
-name = "zk-voting-simple"
+name = "zk-bidding"
 version = "4.0.0"
 dependencies = [
  "create_type_spec_derive",
